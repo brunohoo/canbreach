@@ -17,7 +17,7 @@ A research team website built with [Hexo](https://hexo.io/) for the CanBreach pr
   - Circular profile photos with hover animations
   
 - **Publications management**
-  - Multiple publication types (Theses, Journal Articles, Conference Papers, etc.)
+  - Multiple publication types (Theses, Journal articles, Conference papers, etc.)
   - Automatic citation formatting
   - DOI linking with external link indicators
   - Sticky sidebar navigation
@@ -264,7 +264,7 @@ SOFTWARE.
 
 To properly credit this project in your own work, include:
 ```
-Based on CanBreach Website (https://github.com/brunohoo/canbreach)
+Based on CanBreach website (https://github.com/brunohoo/canbreach)
 Copyright (c) 2024 CanBreach research team
 Licensed under the MIT License
 ```

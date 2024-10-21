@@ -540,10 +540,20 @@ h1, h2, h3, h4, h5, h6 { /*Aligns the publications header with the content*/
 
 .team-member-name {
   font-size: 14px;
-  color: #333;
+  /* color: #333; */
   text-align: center;
   margin-top: auto;
   min-height: 40px;
+}
+
+.team-grid a {
+  color: #2d6ba2;
+  text-decoration: none;
+}
+
+.team-grid a:hover {
+  text-decoration: underline;
+  color: #173855;
 }
 
 @media (max-width: 768px) {
