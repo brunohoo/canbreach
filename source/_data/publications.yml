@@ -1,0 +1,576 @@
+# Theses
+
+- title: 'Quantifying the effect of failure mechanism on dam breach: a physical modelling approach'
+  authors:
+  - Megan McKellar
+  type: Theses
+  subtype: PhD thesis
+  month: April
+  year: '2024'
+  university: Queen's University
+  doi: https://hdl.handle.net/1974/33036
+  
+- title: Improved empirical and numerical predictive modelling of potential tailings
+    dam breaches and their downstream impacts
+  authors:
+  - Negar Ghahramani
+  type: Theses
+  subtype: PhD thesis
+  month: July
+  year: '2023'
+  university: University of British Columbia
+  doi: https://dx.doi.org/10.14288/1.0434305
+
+- title: Global study of tailings dam failures by statistical and remote sensing methods
+  authors:
+  - Nahyan Rana
+  type: Theses
+  subtype: PhD thesis
+  month: April
+  year: '2023'
+  university: University of Waterloo
+  doi: https://uwspace.uwaterloo.ca/handle/10012/19335
+
+- title: Compilation and critical assessment of observations from a selection of historical
+    tailings dam breach events for numerical breach and runout modelling
+  authors:
+  - Daniel Adria
+  type: Theses
+  subtype: MASc thesis
+  month: November
+  year: '2022'
+  university: University of British Columbia
+  doi: https://dx.doi.org/10.14288/1.0421782
+
+- title: Numerical simulation of dam breach with XBeach
+  authors:
+  - Kayleigh Barlow
+  type: Theses
+  subtype: MASc thesis
+  month: July
+  year: '2022'
+  university: Queen's University
+  doi: http://hdl.handle.net/1974/30446
+
+- title: Physical modelling of tailings dam breach
+  authors:
+  - Andrea Walsh
+  type: Theses
+  subtype: MASc thesis
+  month: December
+  year: '2019'
+  university: Queen's University
+  doi: http://hdl.handle.net/1974/27522
+
+
+# Journal articles
+
+- title: 'Application of Sentinel-1 InSAR to monitor tailings dams and predict geotechnical
+    instability: practical considerations based on case study insights'
+  authors:
+  - Nahyan Rana
+  - Keith Delaney
+  - Stephen Evans
+  - Evan Deane
+  - Andy Small
+  - Daniel Adria
+  - Scott McDougall
+  - Negar Ghahramani
+  - Andy Take
+  type: Journal articles
+  month: May
+  year: '2024'
+  journal: Bulletin of Engineering Geology and the Environment
+  volume: '83'
+  issue: '5'
+  # pages: '204'
+  doi: https://doi.org/10.1007/s10064-024-03680-3
+  
+- title: Simulation of breaching of laboratory-scale earth dams by overtopping with
+    XBeach
+  authors:
+  - Kayleigh Barlow
+  - Ryan Mulligan
+  - Scott McDougall
+  - Stephen Evans
+  - Andy Take
+  type: Journal articles
+  month: April
+  year: '2024'
+  journal: Coastal Engineering
+  volume: '189'
+  # pages: '104471'
+  doi: https://doi.org/10.1016/j.coastaleng.2024.104471
+
+- title: Analysis of uncertainty and sensitivity in tailings dam breach-runout numerical
+    modelling
+  authors:
+  - Negar Ghahramani
+  - Daniel Adria
+  - Nahyan Rana
+  - Marcelo Llano-Serna
+  - Scott McDougall
+  - Stephen Evans
+  - Andy Take
+  type: Journal articles
+  month: March
+  year: '2024'
+  journal: Mine Water and the Environment
+  volume: 43
+  pages: 87-103
+  doi: https://doi.org/10.1007/s10230-024-00970-w
+
+- title: 'Insights from the compilation and critical assessment of breach and runout
+    characteristics from historical tailings dam failures: implications for numerical
+    modelling'
+  authors:
+  - Daniel Adria
+  - Negar Ghahramani
+  - Nahyan Rana
+  - Violeta Martin
+  - Scott McDougall
+  - Stephen Evans
+  - Andy Take
+  type: Journal articles
+  year: '2023'
+  month: December
+  volume: 42
+  pages: 650-669
+  journal: Mine Water and the Environment
+  doi: https://doi.org/10.1007/s10230-023-00964-0
+
+- title: A benchmarking study of four numerical runout models for the simulation of
+    tailings flows
+  authors:
+  - Negar Ghahramani
+  - Joanna Chen
+  - Daley Clohan
+  - Shielan Liu
+  - Marcelo Llano-Serna
+  - Nahyan Rana
+  - Scott McDougall
+  - Stephen Evans
+  - Andy Take
+  type: Journal articles
+  year: '2022'
+  journal: Science of the Total Environment
+  volume: '827'
+  month: June
+  # pages: '154245'
+  doi: https://doi.org/10.1016/j.scitotenv.2022.154245
+
+- title: The development and demonstration of a semi-automated regional hazard mapping
+    tool for tailings storage facility failures
+  authors:
+  - Sally Innis
+  - Negar Ghahramani
+  - Nahyan Rana
+  - Scott McDougall
+  - Stephen Evans
+  - Andy Take
+  - Nadja Kunz
+  type: Journal articles
+  year: '2022'
+  journal: Resources
+  volume: '11'
+  issue: '10'
+  month: October
+  # pages: '82'
+  doi: https://doi.org/10.3390/resources11100082
+
+- title: Global magnitude-frequency statistics of the failures and impacts of large
+    water-retention dams and mine tailings impoundments
+  authors:
+  - Nahyan Rana
+  - Negar Ghahramani
+  - Stephen Evans
+  - Andy Small
+  - Nigel Skermer
+  - Scott McDougall
+  - Andy Take
+  type: Journal articles
+  month: September
+  year: '2022'
+  journal: Earth-Science Reviews
+  volume: '232'
+  # pages: '104144'
+  doi: https://doi.org/10.1016/j.earscirev.2022.104144
+
+- title: Effect of upstream dam geometry on peak discharge during overtopping breach
+    in noncohesive homogeneous embankment dams; implications for tailings dams
+  authors:
+  - Andrea Walsh
+  - Scott McDougall
+  - Stephen Evans
+  - Andy Take
+  type: Journal articles
+  month: December
+  year: '2021'
+  journal: Water Resources Research
+  volume: '57'
+  issue: '12'
+  # pages: e2020WR029358
+  doi: https://doi.org/10.1029/2020WR029358
+
+- title: Catastrophic mass flows resulting from tailings impoundment failures
+  authors:
+  - Nahyan Rana
+  - Negar Ghahramani
+  - Stephen Evans
+  - Scott McDougall
+  - Andy Small
+  - Andy Take
+  type: Journal articles
+  month: October
+  year: '2021'
+  journal: Engineering Geology
+  volume: '292'
+  # pages: '106262'
+  doi: https://doi.org/10.1016/j.enggeo.2021.106262
+
+- title: 'Tailings-flow runout analysis: examining the applicability of a semi-physical
+    area–volume relationship using a novel database'
+  authors:
+  - Negar Ghahramani
+  - Andrew Mitchell
+  - Nahyan Rana
+  - Scott McDougall
+  - Stephen Evans
+  - Andy Take
+  type: Journal articles
+  month: December
+  year: '2020'
+  journal: Natural Hazards and Earth System Sciences
+  volume: '20'
+  issue: '12'
+  pages: 3425-3438
+  doi: https://doi.org/10.5194/nhess-20-3425-2020
+
+
+# Databases
+
+- title: A database of breach and runout characteristics from historical tailings
+    dam failures
+  authors:
+  - Daniel Adria
+  - Negar Ghahramani
+  - Nahyan Rana
+  - Violeta Martin
+  - Scott McDougall
+  - Stephen Evans
+  - Andy Take
+  type: Databases
+  year: '2023'
+  repository: Borealis
+  doi: https://doi.org/10.5683/SP3/JXT1XH
+
+- title: Supplementary materials to "Global magnitude-frequency statistics of the
+    failures and impacts of large water-retention dams and mine tailings impoundments"
+  authors:
+  - Nahyan Rana
+  - Negar Ghahramani
+  - Stephen Evans
+  - Andy Small
+  - Nigel Skermer
+  - Scott McDougall
+  - Andy Take
+  type: Databases
+  year: '2022'
+  repository: Borealis
+  doi: https://doi.org/10.5683/SP3/K7SANT
+
+- title: A comprehensive global database of tailings flows
+  authors:
+  - Nahyan Rana
+  - Negar Ghahramani
+  - Stephen Evans
+  - Scott McDougall
+  - Andy Small
+  - Andy Take
+  type: Databases
+  year: '2021'
+  repository: Borealis
+  doi: https://doi.org/10.5683/SP2/NXMXTI
+
+- title: Effect of upstream dam geometry on peak discharge during overtopping breach
+    in noncohesive homogenous embankment dams; implications for tailings dams (2021-06-07)
+  authors:
+  - Andrea Walsh
+  - Scott McDougall
+  - Stephen Evans
+  - Andy Take
+  type: Databases
+  year: '2021'
+  repository: Borealis
+  doi: https://doi.org/10.5683/SP2/HLJQVB
+
+
+# Conference papers
+
+- title: Improvements in case history knowledge for dam failures by statistical and
+    remote sensing methods (CanBreach project)
+  authors:
+  - Nahyan Rana
+  - Negar Ghahramani
+  - Andy Small
+  - Scott McDougall
+  - Andy Take
+  - Stephen Evans
+  type: Conference papers
+  conference: International Conference on Tailings and Mine Waste
+  number: 27
+  event-place: Vancouver
+  month: November
+  year: '2023'
+  pages: 275-286
+  
+- title: Methods for empirical and numerical analysis of tailings flow runout (CanBreach
+    project)
+  authors:
+  - Negar Ghahramani
+  - Daniel Adria
+  - Sally Innis
+  - Nahyan Rana
+  - Evelyn Dina
+  - Nadja Kunz
+  - Stephen Evans
+  - Andy Take
+  - Scott McDougall
+  type: Conference papers
+  conference: International Conference on Tailings and Mine Waste
+  number: 27
+  event-place: Vancouver
+  month: November
+  year: '2023'
+  pages: 251-262
+  
+- title: Physical and numerical modeling of tailings dam breach processes (CanBreach
+    project)
+  authors:
+  - Megan McKellar
+  - Andrea Walsh
+  - Kayleigh Barlow
+  - Ryan Mulligan
+  - Scott McDougall
+  - Stephen Evans
+  - Andy Take
+  type: Conference papers
+  conference: International Conference on Tailings and Mine Waste
+  number: 27
+  event-place: Vancouver
+  month: November
+  year: '2023'
+  pages: 240-250
+
+- title: The magnitude-frequency of tailings flows resulting from failures of tailings
+    impoundments
+  authors:
+  - Nahyan Rana
+  - Stephen Evans
+  - Negar Ghahramani
+  - Scott McDougall
+  - Andy Take
+  type: Conference papers
+  conference: International Conference on Tailings and Mine Waste
+  number: 25
+  event-place: Banff
+  month: November
+  year: '2021'
+  pages: 509-516
+
+- title: Advancements in the modelling of tailings dam breaches
+  authors:
+  - Daniel Adria
+  - Negar Ghahramani
+  - Anda Cen
+  - Scott McDougall
+  - Nahyan Rana
+  - Stephen Evans
+  - Andy Take
+  type: Conference papers
+  conference: International Conference on Tailings and Mine Waste
+  number: 25
+  event-place: Banff
+  month: November
+  year: '2021'
+  pages: 324-332
+
+- title: 'Physical modelling of tailings dam breach: exploring overtopping following shear failure'
+  authors:
+  - Megan McKellar
+  - Andrea Walsh
+  - Scott McDougall
+  - Stephen Evans
+  - Andy Take
+  type: Conference papers
+  conference: Mine Waste and Tailings Conference
+  month: July
+  year: '2021'
+  doi: https://www.ausimm.com/publications/conference-proceedings/mine-waste-and-tailings-conference-2021/physical-modelling-of-tailings-dam-breach-exploring-overtopping-following-shear-failure/
+
+- title: Analysis of downstream field behavior of long‐runout tailings flows using remote sensing
+  authors:
+  - Nahyan Rana
+  - Negar Ghahramani
+  - Stephen Evans
+  - Scott McDougall
+  - Andy Take
+  type: Conference papers
+  conference: Mine Waste and Tailings Conference
+  month: July
+  year: '2021'
+  doi: https://www.ausimm.com/publications/conference-proceedings/mine-waste-and-tailings-conference-2021/analysis-of-downstream-field-behavior-of-longrunout-tailings-flows-using-remote-sensing/
+
+- title: A preliminary benchmarking numerical modelling exercise for tailings‐flow runout analysis
+  authors:
+  - Negar Ghahramani
+  - Nahyan Rana
+  - Shielan Liu
+  - Joanna Chen
+  - Daley Clohan
+  - Scott McDougall
+  - Stephen Evans
+  - Andy Take
+  type: Conference papers
+  conference: Mine Waste and Tailings Conference
+  month: July
+  year: '2021'
+  doi: https://www.ausimm.com/publications/conference-proceedings/mine-waste-and-tailings-conference-2021/a-preliminary-benchmarking-numerical-modelling-exercise-for-tailingsflow-runout-analysis/
+
+- title: Automated hazard mapping of tailings storage facility failures
+  authors:
+  - Sally Innis
+  - Negar Ghahramani
+  - Nahyan Rana
+  - Scott McDougall
+  - Stephen Evans
+  - Andy Take
+  - Nadja Kunz
+  type: Conference papers
+  conference: International Conference on Tailings and Mine Waste
+  number: 24
+  month: November
+  year: '2020'
+  pages: 661-669
+
+- title: Introducing a runout zone classification for the analysis of tailings flows
+  authors:
+  - Negar Ghahramani
+  - Scott McDougall
+  - Andrew Mitchell
+  - Stephen Evans
+  - Andy Take
+  - Vanessa Cuervo
+  type: Conference papers
+  conference: International Conference on Tailings and Mine Waste
+  number: 23
+  event-place: Vancouver
+  month: November
+  year: '2019'
+  pages: 555-568
+
+- title: Physical modelling of tailings dam breach
+  authors:
+  - Andrea Walsh
+  - Andy Take
+  - Scott McDougall
+  - Stephen Evans
+  type: Conference papers
+  conference: International Conference on Tailings and Mine Waste
+  number: 23
+  event-place: Vancouver
+  month: November
+  year: '2019'
+  pages: 705-714
+
+
+# Reports
+
+- title: Parametric method for tailings-dam breaches and its application to the breach
+    event at the Mount Polley Mine, south-central British Columbia
+  authors:
+  - Daniel Adria
+  - Scott McDougall
+  - Stephen Evans
+  type: Reports
+  year: '2022'
+  institution: Geoscience BC
+  pages: 81-92
+  doi: https://www.geosciencebc.com/daniel-adria-msc-student-university-of-british-columbia/
+
+
+# Talks
+
+- title: Case history databases
+  authors: 
+  - Daniel Adria
+  - Nahyan Rana
+  type: Talks
+  occasion: Recent advances in tailings dam breach analysis
+  conference: Annual Conference & Trade Show of the Canadian Dam Association 
+  number: 35
+  event-place: Niagara Falls
+  year: '2024'
+  month: October
+
+- title: Improved numerical predictive modelling of potential dam breaches and their downstream impacts
+  authors: 
+  - Negar Ghahramani
+  type: Talks
+  occasion: Recent advances in tailings dam breach analysis
+  conference: Annual Conference & Trade Show of the Canadian Dam Association 
+  number: 35
+  event-place: Niagara Falls
+  year: '2024'
+  month: October
+
+- title: Physical and numerical modelling of overtopping dam breach
+  authors: 
+  - Andy Take
+  type: Talks
+  occasion: Recent advances in tailings dam breach analysis
+  conference: Canadian Dam Association Annual Conference & Trade Show
+  number: 35
+  event-place: Niagara Falls
+  year: '2024'
+  month: October
+
+- title: An overview of the CanBreach project
+  authors: 
+  - Scott McDougall
+  type: Talks
+  occasion: Tailings dam breach analysis workshop
+  conference: International Conference on Tailings and Mine Waste
+  number: 23
+  event-place: Vancouver
+  year: '2019'
+  month: November
+
+- title: 'CanBreach: an integrated tailings dam breach research and technology development project'
+  authors: 
+  - Scott McDougall
+  - Negar Ghahramani
+  - Stephen Evans
+  - Andy Take
+  - Andrea Walsh
+  type: Talks
+  occasion: Tailings research workshop
+  conference: Annual Meeting of the International Commission on Large Dams
+  number: 87
+  event-place: Ottawa
+  year: '2019'
+  month: June
+
+- title: 'CanBreach: physical modelling of tailings dam breach'
+  authors: 
+  - Andrea Walsh
+  - Andy Take
+  - Scott McDougall
+  - Stephen Evans
+  type: Talks
+  occasion: Tailings research workshop
+  conference: Annual Meeting of the International Commission on Large Dams
+  number: 87
+  event-place: Ottawa
+  year: '2019'
+  month: June

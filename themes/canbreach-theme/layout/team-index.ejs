@@ -1,0 +1,18 @@
+<%- page.content %>
+
+<!-- Rendering randomly -->%>
+
+<div class="team-grid">
+  <% site.pages.data.filter(page => page.layout === 'author')
+     .sort(() => Math.random() - 0.5)
+     .forEach(function(page) { %>
+    <div class="team-member-container">
+      <a href="<%= url_for(page.path.replace('index.html', '')) %>">
+        <div class="team-member-photo">
+          <img src="<%= url_for(page.photo) %>" alt="<%= page.title %>">
+        </div>
+        <div class="team-member-name"><%= page.title %></div>
+      </a>
+    </div>
+  <% }); %>
+</div>

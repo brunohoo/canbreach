@@ -1,0 +1,145 @@
+<h2>Search results for: <span id="query-display"></span></h2>
+<div id="search-results"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const query = new URLSearchParams(window.location.search).get('q');
+  document.getElementById('query-display').textContent = query || '';
+  
+  if (query) {
+    fetch('<%- url_for("search-index.json") %>')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        if (!Array.isArray(data) || data.length === 0) {
+          throw new Error('Invalid or empty search index data');
+        }
+        const results = searchData(data, query);
+        displayResults(results, query);
+      })
+      .catch(error => {
+        document.getElementById('search-results').innerHTML = `Error loading search results: ${error.message}`;
+      });
+  } else {
+    document.getElementById('search-results').innerHTML = 'Please enter a search query.';
+  }
+});
+
+function searchData(data, query) {
+  const terms = query.toLowerCase().split(/\s+/);
+  return data.filter(item => {
+    const searchableText = `${item.title} ${item.content}`.toLowerCase();
+    return terms.every(term => searchableText.includes(term));
+  }).sort((a, b) => {
+    const aScore = scoreResult(a, terms);
+    const bScore = scoreResult(b, terms);
+    return bScore - aScore;
+  });
+}
+
+function scoreResult(item, terms) {
+  let score = 0;
+  const lowerTitle = item.title.toLowerCase();
+  const lowerContent = item.content.toLowerCase();
+  
+  terms.forEach(term => {
+    if (lowerTitle.includes(term)) score += 10;
+    if (lowerContent.includes(term)) score += 1;
+  });
+  
+  return score;
+}
+
+function getTypeHeading(type) {
+  const typeMappings = {
+    'Theses': 'Thesis',
+    'Journal articles': 'Journal article',
+    'Databases': 'Database',
+    'Conference papers': 'Conference paper',
+    'Reports': 'Report',
+    'Talks': 'Talk'
+  };
+  return typeMappings[type] || type;
+}
+
+function cleanExcerpt(content, query) {
+  if (typeof content !== 'string') {
+    return 'No preview available';
+  }
+  
+  content = content.replace(/\n+/g, ' ').replace(/\s+/g, ' ').trim();
+  
+  const terms = query.toLowerCase().split(/\s+/);
+  let startIndex = content.toLowerCase().indexOf(terms[0]);
+  
+  if (startIndex === 0) {
+    const end = Math.min(content.length, 150);
+    let excerpt = content.slice(0, end);
+    excerpt = excerpt.replace(/\s\S+$/, '');
+    return excerpt + (content.length > end ? ' ...' : '');
+  }
+
+  if (startIndex === -1) {
+    startIndex = 0;
+  }
+
+  const start = Math.max(0, startIndex - 75);
+  const end = Math.min(content.length, start + 150);
+  let excerpt = content.slice(start, end);
+
+  excerpt = excerpt.replace(/^\S+\s/, '').replace(/\s\S+$/, '');
+  
+  if (start > 0) excerpt = '... ' + excerpt;
+  if (end < content.length) excerpt += ' ...';
+
+  return excerpt;
+}
+
+function highlight(text, query) {
+  if (typeof text !== 'string') {
+    return '';
+  }
+  const terms = query.toLowerCase().split(/\s+/);
+  return terms.reduce((acc, term) => {
+    const regex = new RegExp(`(${term})`, 'gi');
+    return acc.replace(regex, '<mark>$1</mark>');
+  }, text);
+}
+
+function displayResults(results, query) {
+  const resultsDiv = document.getElementById('search-results');
+  if (results.length === 0) {
+    resultsDiv.innerHTML = 'No results found.';
+  } else {
+    resultsDiv.innerHTML = results.map(result => {
+      let title = highlight(result.title, query);
+      let subtitle = '';
+      let content = '';
+
+      if (result.type === 'publication') {
+        const authors = result.authors.length > 1 
+          ? result.authors.slice(0, -1).join(', ') + ', and ' + result.authors[result.authors.length - 1]
+          : result.authors[0];
+        const singlePubType = getTypeHeading(result.pubType);
+        subtitle = `<h4>${highlight(singlePubType, query)} by ${highlight(authors, query)}</h4>`;
+        content = `<p>${highlight(result.pubTitle, query)}</p>`;
+      } else {
+        const excerpt = cleanExcerpt(result.content, query);
+        content = `<p>${highlight(excerpt, query)}</p>`;
+      }
+
+      return `
+        <div class="search-result">
+          <h3><a href="${result.url}">${title}</a></h3>
+          ${subtitle}
+          ${content}
+        </div>
+      `;
+    }).join('');
+  }
+}
+</script>

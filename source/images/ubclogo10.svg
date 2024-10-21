@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="145.12"
+   height="94.066666"
+   viewBox="0 0 145.12 94.066666"
+   sodipodi:docname="ubclogo10.eps"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="ink_ext_XXXXXX"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,94.066667)">
+    <g
+       id="g10"
+       transform="scale(0.1)">
+      <path
+         d="m 341.266,244 c -58.684,0 -93.731,31.402 -93.731,84.168 v 126.324 h 48.656 V 330.16 c 0,-30.656 16.118,-47.512 45.45,-47.512 30.082,0 46.031,16.145 46.031,46.645 v 125.199 h 48.976 V 329.008 C 436.648,276.555 400.105,244 341.266,244"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path12" />
+      <path
+         d="m 545.984,247.504 h -67.949 v 206.988 h 68.961 c 50.41,0 78.184,-19.574 78.184,-54.976 0,-18.633 -9.715,-32.969 -28.262,-41.754 24.867,-8.778 37.5,-25.199 37.5,-48.942 0,-39.566 -31.387,-61.316 -88.434,-61.316 m -20.933,34.559 h 20.933 c 18.926,0 41.418,4.835 41.418,27.91 0,23.781 -22.871,28.84 -42.109,28.84 h -20.242 z m 0,89.277 h 17.679 c 23.676,0 36.774,8.883 36.774,24.98 0,15.84 -11.422,23.563 -34.848,23.563 H 525.051 V 371.34"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path14" />
+      <path
+         d="m 770.691,244 c -67,0 -110.261,41.836 -110.261,106.715 0,64.117 44.847,107.234 111.586,107.234 24.746,0 45.574,-4.875 63.66,-14.914 l 1.586,-0.879 -7.274,-42.148 -3.203,2.133 c -17.762,11.925 -34.66,17.429 -53.125,17.429 -39.805,0 -63.597,-25.652 -63.597,-68.593 0,-42.157 24.605,-68.329 64.257,-68.329 18.782,0 37.266,5.637 56.504,17.219 l 3.176,1.903 6.859,-39.317 -1.527,-0.887 C 819.578,250.258 795.211,244 770.691,244"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path16" />
+    </g>
+  </g>
+</svg>

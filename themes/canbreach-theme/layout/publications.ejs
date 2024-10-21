@@ -1,0 +1,37 @@
+<%- page.content %>
+
+<% const publications = getPublications(); %>
+<% const groupedPublications = {}; %>
+
+<% // Group publications by type %>
+<% publications.forEach(pub => { %>
+  <% if (!groupedPublications[pub.type]) { %>
+    <% groupedPublications[pub.type] = []; %>
+  <% } %>
+  <% groupedPublications[pub.type].push(pub); %>
+<% }); %>
+
+<div class="publications-container">
+  <div class="publications-content">
+    <div id="publications">
+      <% // Render publications by type %>
+      <% for (const type in groupedPublications) { %>
+        <h3 id="<%= type.toLowerCase().replace(/\s+/g, '-') %>"><%= type %></h3>
+        <ul>
+          <% groupedPublications[type].forEach(pub => { %>
+            <li><%- renderPublication(pub) %></li>
+          <% }); %>
+        </ul>
+      <% } %>
+    </div>
+  </div>
+  
+  <div class="publications-toc">
+    <h3>Publication types</h3>
+    <ul>
+      <% for (const type in groupedPublications) { %>
+        <li><a href="#<%= type.toLowerCase().replace(/\s+/g, '-') %>"><%= type %></a></li>
+      <% } %>
+    </ul>
+  </div>
+</div>

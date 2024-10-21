@@ -1,0 +1,47 @@
+<div class="author-profile">
+  <div class="author-photo">
+    <img src="<%= url_for(page.photo) %>" alt="<%= page.title %>">
+  </div>
+  <div class="author-info">
+    <h1><%= page.title %></h1>
+    <%- page.content %>
+  </div>
+</div>
+
+<div id="publications">
+  <% const authorPublications = getPublicationsByAuthor(page.title); %>
+  <% const groupedPublications = {}; %>
+
+  <% // Group publications by type %>
+  <% authorPublications.forEach(pub => { %>
+    <% if (!groupedPublications[pub.type]) { %>
+      <% groupedPublications[pub.type] = []; %>
+    <% } %>
+    <% groupedPublications[pub.type].push(pub); %>
+  <% }); %>
+
+  <% // Function to get singular or plural form of publication type %>
+  <% function getTypeHeading(type, count) {
+    const typeMappings = {
+      'Theses': ['Thesis', 'Theses'],
+      'Journal articles': ['Journal article', 'Journal articles'],
+      'Databases': ['Database', 'Databases'],
+      'Conference papers': ['Conference paper', 'Conference papers'],
+      'Reports': ['Report', 'Reports'],
+      'Talks': ['Talk', 'Talks']
+    };
+    const [singular, plural] = typeMappings[type] || [type, type];
+    return count === 1 ? singular : plural;
+  } %>
+
+  <% // Render publications by type %>
+  <% for (const type in groupedPublications) { %>
+    <% const publicationCount = groupedPublications[type].length; %>
+    <h3><%= getTypeHeading(type, publicationCount) %></h3>
+    <ul class="publication-list">
+      <% groupedPublications[type].forEach(pub => { %>
+        <li><%- renderPublication(pub) %></li>
+      <% }); %>
+    </ul>
+  <% } %>
+</div>

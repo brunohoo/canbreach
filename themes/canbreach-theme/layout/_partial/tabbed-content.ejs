@@ -1,0 +1,52 @@
+<!-- _partial/tabbed-content.ejs -->
+<%
+// Set this to true to show only first generation content
+const showOnlyFirstGen = false;
+%>
+
+<!-- <div class="page-content">
+  <%- page.content %>
+</div> -->
+
+<% if (showOnlyFirstGen) { %>
+  <div class="first-generation-content">
+    <%- markdown(page.first_generation) %>
+  </div>
+<% } else if (page.first_generation && page.second_generation) { %>
+  <div class="tabbed-content">
+    <div class="tabs">
+      <button class="tab-button first-gen active" data-tab="first">First generation (2019 – 2024)</button>
+      <button class="tab-button second-gen" data-tab="second">Second generation (2024 – current)</button>
+    </div>
+    <div id="first-gen" class="tab-content active">
+      <%- markdown(page.first_generation) %>
+    </div>
+    <div id="second-gen" class="tab-content">
+      <%- markdown(page.second_generation) %>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const tabs = document.querySelectorAll('.tab-button');
+      const contents = document.querySelectorAll('.tab-content');
+
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          const target = tab.getAttribute('data-tab');
+          
+          contents.forEach(content => {
+            content.classList.remove('active');
+          });
+          
+          tabs.forEach(t => {
+            t.classList.remove('active');
+          });
+          
+          document.getElementById(target + '-gen').classList.add('active');
+          tab.classList.add('active');
+        });
+      });
+    });
+  </script>
+<% } %>

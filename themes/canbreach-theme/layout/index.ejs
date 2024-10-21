@@ -1,0 +1,8 @@
+<% page.posts.each(function(post){ %>
+    <article>
+      <h2><a href="<%- url_for(post.path) %>"><%= post.title %></a></h2>
+      <div class="post-content">
+        <%- post.excerpt %>
+      </div>
+    </article>
+  <% }) %>

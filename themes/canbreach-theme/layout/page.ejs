@@ -1,0 +1,9 @@
+<article>
+  <!-- <h1><%= page.title %></h1> -->
+  <div class="page-content">
+    <%- page.content %>
+    <% if (page.first_generation && page.second_generation) { %>
+      <%- partial('_partial/tabbed-content') %>
+    <% } %>
+  </div>
+</article>

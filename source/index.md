@@ -1,0 +1,56 @@
+---
+title: CanBreach homepage
+date: 2024-10-19 12:38:06
+menu_item: true
+menu_order: 1
+
+first_generation: |
+  ### Three universities
+  
+  <div class="partner-grid">
+  <a href="https://ubc.ca/" target="_blank" class="partner-logo">
+      <img src="/images/ubclogo4.svg" alt="The University of British Columbia">
+  </a>
+  <a href="https://uwaterloo.ca/" target="_blank" class="partner-logo">
+      <img src="/images/uwaterloologo2wiki.svg" alt="University of Waterloo">
+  </a>
+  <a href="https://www.queensu.ca/" target="_blank" class="partner-logo">
+      <img src="/images/queenslogo2wiki.svg" alt="Queen's University" style="width:75%; height:auto">
+  </a>
+  </div>
+  
+  ### Five industrial partners
+  
+  <div class="partner-grid">
+  <a href="https://www.bgcengineering.ca/" target="_blank" class="partner-logo">
+      <img src="https://www.bgcengineering.ca/wp-content/uploads/2022/08/BGC-Colour-Logo_White-Box.png" alt="BGC Engineering">
+  </a>
+  <a href="https://www.klohn.com/" target="_blank" class="partner-logo">
+      <img src="https://klohn.com/wp-content/uploads/2020/07/KCB-logo-horizontal.png" alt="Klohn Crippen Berger">
+  </a>
+  <a href="https://www.golder.com/" target="_blank" class="partner-logo">
+      <img src="https://yt3.googleusercontent.com/fZculccEzxyvGA8NwwLVMwvS3NzCQi3HlPwEIJspMq3QN7I616mIKPlUejQGiAjKr-skcony12Q=s900-c-k-c0x00ffffff-no-rj" alt="Golder/WSP">
+  </a>
+  <a href="https://www.imperial.ca/" target="_blank" class="partner-logo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_t2ohEj5yzt8WObgRZ5tiVgE27c93omoErg&s" alt="Imperial Oil">
+  </a>
+  <a href="https://www.suncor.com/" target="_blank" class="partner-logo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRadqPd8n2lpTtli2gLkPg2uz79Gp_gUUXmEQ&s" alt="Suncor Energy">
+  </a>
+  </div>
+  
+  ### Funded by
+  
+  <div class="partner-grid">
+  <a href="https://www.nserc-crsng.gc.ca/Index_eng.asp" target="_blank" class="partner-logo">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Natural_Sciences_and_Engineering_Research_Council_Logo.svg/1200px-Natural_Sciences_and_Engineering_Research_Council_Logo.svg.png" alt="Natural Sciences and Engineering Research Council of Canada">
+  </a>
+  </div>
+
+second_generation: |
+  .
+---
+
+## CanBreach research team
+
+CanBreach is a NSERC-funded university-industry research team whose purpose is to equip engineers with better tools, including computer simulations, to help manage the risks associated with tailings storage facilities. Using an integrated approach to research, the team will work to develop a better understanding of the mobility of tailings flow, breach mechanisms of tailings dams, and the downstream behaviour of long runout tailings flows.

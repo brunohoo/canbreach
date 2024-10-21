@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title><%= page.title ? `${page.title} | ${config.title}` : config.title %></title> <!--Consistent page titles in browser tabs-->
+  <!-- <title><%= config.title %></title> -->
+  <link rel="stylesheet" href="<%- url_for('css/style.css') %>">
+  <style>
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <% get_menu_items().forEach(function(item) { %>
+          <li><a href="<%= item.url %>"><%= item.title %></a></li>
+        <% }); %>
+      </ul>
+      <div class="search-container">
+        <form id="search-form" action="<%- url_for('/search/') %>" method="get">
+          <input type="text" id="search-input" name="q" placeholder="Type here to search...">
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <%- body %>
+  </main>
+  <footer>
+    <p>&copy; <%= date(new Date(), 'YYYY') %> <%= config.author %></p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var header = document.querySelector('header');
+      var scrollThreshold = 50; // Adjust this value to determine when the header should shrink
+
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > scrollThreshold) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
