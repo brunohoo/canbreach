@@ -2,5 +2,11 @@
   command = "hexo generate"
   publish = "public"
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Basic-Auth = "canbreach:canbreach2024"
+    X-Robots-Tag = "noindex"
+
 [build.environment]
   NODE_VERSION = "18"  # or whatever version you're using
