@@ -5,6 +5,10 @@
   <meta charset="utf-8">
   <title><%= page.title ? `${page.title} | ${config.title}` : config.title %></title> <!--Consistent page titles in browser tabs-->
   <!-- <title><%= config.title %></title> -->
+  <!-- meta tags for Netlify secutiry purposes -->
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
   <link rel="stylesheet" href="<%- url_for('css/style.css') %>">
   <style>
     .tab-content { display: none; }

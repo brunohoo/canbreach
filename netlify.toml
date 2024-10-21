@@ -7,6 +7,18 @@
   [headers.values]
     Basic-Auth = "canbreach:canbreach2024"
     X-Robots-Tag = "noindex"
+    Cache-Control = "no-store, no-cache, must-revalidate"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
 
 [build.environment]
-  NODE_VERSION = "18"  # or whatever version you're using
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
+  conditions = {Role = ["admin"]}
