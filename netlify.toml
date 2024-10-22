@@ -5,8 +5,16 @@
 [[headers]]
   for = "/*"
   [headers.values]
+    WWW-Authenticate = "Basic realm=\"Access to CanBreach\""
     Basic-Auth = "canbreach:canbreach2024"
     X-Robots-Tag = "noindex"
+    Cache-Control = "no-store, no-cache, must-revalidate"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
 
 [build.environment]
-  NODE_VERSION = "18"  # or whatever version you're using
+  NODE_VERSION = "18"
