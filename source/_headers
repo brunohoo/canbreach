@@ -1,4 +1,5 @@
 /*
-  Basic-Auth: canbreach:canbreach2024
+  WWW-Authenticate: Basic realm="Restricted Access"
+  401 Unauthorized
   X-Robots-Tag: noindex
   Cache-Control: no-store, no-cache, must-revalidate

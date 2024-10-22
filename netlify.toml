@@ -5,16 +5,16 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    WWW-Authenticate = "Basic realm=\"Access to CanBreach\""
-    Basic-Auth = "canbreach:canbreach2024"
+    WWW-Authenticate = "Basic realm=\"Restricted Access\""
     X-Robots-Tag = "noindex"
     Cache-Control = "no-store, no-cache, must-revalidate"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200
+  status = 401
   force = true
+  headers = {WWW-Authenticate = "Basic realm=\"Restricted Access\""}
 
 [build.environment]
   NODE_VERSION = "18"
