@@ -28,8 +28,9 @@ hexo.extend.helper.register('getPublicationsByAuthor', function(authorName) {
 });
 
 hexo.extend.helper.register('renderPublication', function(pub) {
-  const authorsWithLinks = ["Negar Ghahramani", "Daniel Adria", "Nahyan Rana"];
-  
+  // const authorsWithLinks = ["Negar Ghahramani", "Daniel Adria", "Nahyan Rana"];
+  const authorsWithLinks = [];
+
   const authorLinks = pub.authors.map(author => {
     const urlFriendlyName = author.trim().toLowerCase().replace(/\s+/g, '-');
     if (authorsWithLinks.includes(author.trim())) {

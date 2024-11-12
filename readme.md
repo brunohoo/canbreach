@@ -118,6 +118,31 @@ const authorsWithLinks = [
 ```
 This step is necessary for creating automatic links from publications to author profiles.
 
+### Removing team members spot
+
+1. Hide/Show Members Navigation:
+   ```yaml
+   # In members/index.md front matter
+   ---
+   title: Members
+   menu_order: 3
+   menu_item: false  # Add to hide, remove to show
+   ---
+   ```
+
+2. Remove/Restore Member Profile Links:
+   ```javascript
+   // In publications.js
+   const authorsWithLinks = [];  // Empty array to remove links
+   
+   // Restore with original array when needed:
+   const authorsWithLinks = [
+     "Negar Ghahramani",
+     "Daniel Adria",
+     "Nahyan Rana"
+   ];
+   ```
+
 ### Managing publications
 1. Edit `source/_data/publications.yml`
 2. Publications are organized by type with required fields:
