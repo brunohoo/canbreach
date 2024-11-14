@@ -441,28 +441,45 @@ h1, h2, h3, h4, h5, h6 { /*Aligns the publications header with the content*/
 }
 
 .external-link-icon {
-  margin-left: 4px;
+  content: "\2197"; /* Unicode for upward-right arrow */
+  display: inline-block;
   color: #2d6ba2;
-}
-
-.external-link-icon:hover {
-  color: #173855;
+  margin-left: 4px;
+  font-family: system-ui; /* System font typically handles arrows better */
 }
 
 .pub-author {
-  font-size: 90%;
+  /* font-size: 90%; */
   margin-bottom: 5px;
 }
 
 .pub-title {
-  font-size: 100%;
+  /* font-size: 100%; */
   margin-bottom: 5px;
-  /* display: inline-flex; */
+  /* display: inline-flex; Ja estava nao comentado antes*/
   align-items: baseline;
 }
 
-.pub-info {
+/* .pub-info {
   font-size: 90%;
+} */
+
+.pub-title {
+  font-size: 1rem;  /* 16px base */
+}
+
+.pub-author, .pub-info {
+  font-size: 0.85rem;  /* Changed from suggested 14px, 0.875rem - noticeably smaller - to 0.85rem */
+}
+
+@media (min-width: 768px) {
+  .pub-title {
+    font-size: 1rem;  /* Changed from suggested 18px to 16px */
+  }
+  
+  .pub-author, .pub-info {
+    font-size: 0.85rem;  /* Keeps author names small even on desktop */
+  }
 }
 
 #publications ul {

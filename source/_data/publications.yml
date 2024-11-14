@@ -404,6 +404,8 @@
   - Andy Take
   type: Conference papers
   conference: Mine Waste and Tailings Conference
+  number: 3
+  event-place: Brisbane
   month: July
   year: '2021'
   doi: https://www.ausimm.com/publications/conference-proceedings/mine-waste-and-tailings-conference-2021/physical-modelling-of-tailings-dam-breach-exploring-overtopping-following-shear-failure/
@@ -417,6 +419,8 @@
   - Andy Take
   type: Conference papers
   conference: Mine Waste and Tailings Conference
+  number: 3
+  event-place: Brisbane
   month: July
   year: '2021'
   doi: https://www.ausimm.com/publications/conference-proceedings/mine-waste-and-tailings-conference-2021/analysis-of-downstream-field-behavior-of-longrunout-tailings-flows-using-remote-sensing/
@@ -433,6 +437,8 @@
   - Andy Take
   type: Conference papers
   conference: Mine Waste and Tailings Conference
+  number: 3
+  event-place: Brisbane
   month: July
   year: '2021'
   doi: https://www.ausimm.com/publications/conference-proceedings/mine-waste-and-tailings-conference-2021/a-preliminary-benchmarking-numerical-modelling-exercise-for-tailingsflow-runout-analysis/
