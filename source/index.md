@@ -19,20 +19,26 @@ first_generation: |
   </a>
   </div>
   
-  ### Five industrial partners
+  ### Seven industrial partners
   
   <div class="partner-grid">
   <a href="https://www.bgcengineering.ca/" target="_blank" class="partner-logo">
       <img src="https://www.bgcengineering.ca/wp-content/uploads/2022/08/BGC-Colour-Logo_White-Box.png" alt="BGC Engineering">
   </a>
-  <a href="https://www.klohn.com/" target="_blank" class="partner-logo">
-      <img src="https://klohn.com/wp-content/uploads/2020/07/KCB-logo-horizontal.png" alt="Klohn Crippen Berger">
-  </a>
   <a href="https://www.golder.com/" target="_blank" class="partner-logo">
       <img src="https://yt3.googleusercontent.com/fZculccEzxyvGA8NwwLVMwvS3NzCQi3HlPwEIJspMq3QN7I616mIKPlUejQGiAjKr-skcony12Q=s900-c-k-c0x00ffffff-no-rj" alt="Golder/WSP">
   </a>
+  <a href="https://www.klohn.com/" target="_blank" class="partner-logo">
+      <img src="https://klohn.com/wp-content/uploads/2020/07/KCB-logo-horizontal.png" alt="Klohn Crippen Berger">
+  </a>
+  <a href="https://www.knightpiesold.com/en/" target="_blank" class="partner-logo">
+      <img src="/images/knightpiesoldlogo.png" alt="Knight Piésold">
+  </a>
   <a href="https://www.imperial.ca/" target="_blank" class="partner-logo">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_t2ohEj5yzt8WObgRZ5tiVgE27c93omoErg&s" alt="Imperial Oil">
+  </a>
+  <a href="https://www.riotinto.com/" target="_blank" class="partner-logo">
+      <img src="images/riotintologo1.svg" alt="Rio Tinto">
   </a>
   <a href="https://www.suncor.com/" target="_blank" class="partner-logo">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRadqPd8n2lpTtli2gLkPg2uz79Gp_gUUXmEQ&s" alt="Suncor Energy">
