@@ -63,13 +63,13 @@ hexo.extend.helper.register('renderPublication', function(pub) {
     if (pub.university) infoArray.push(pub.university);
   } 
   
-  else if (pub.type === 'Journal articles') {
+  else if (pub.type === 'Journal papers') {
     if (pub.journal) infoArray.push(pub.journal);
     if (pub.volume) infoArray.push(`volume ${pub.volume}`);
     if (pub.issue) infoArray.push(`issue ${pub.issue}`);
   } 
   
-  else if (pub.type === 'Conference papers') {
+  else if (pub.type === 'Conference proceedings') {
     let conferenceInfo = '';
     if (pub.number) {
       const ordinalNumber = getOrdinal(parseInt(pub.number));

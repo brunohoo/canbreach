@@ -63,7 +63,23 @@
   doi: http://hdl.handle.net/1974/27522
 
 
-# Journal articles
+# Journal papers
+
+- title: 'Effect of the presence of a tailings dam beach on breach outflow and erosion during overtopping failure'
+  authors:
+  - Kayleigh Barlow
+  - Andrea Walsh
+  - Megan McKellar
+  - Ryan Mulligan
+  - Scott McDougall
+  - Stephen Evans
+  - Andy Take
+  type: Journal papers
+  month: November #atualizar depois
+  year: '2024' #atualizar depois tb e colocar volume e issue
+  journal: Engineering Geology
+  doi: https://www.sciencedirect.com/science/article/pii/S0013795224004058
+  # doi: https://doi.org/10.1016/j.enggeo.2024.107805
 
 - title: 'Application of Sentinel-1 InSAR to monitor tailings dams and predict geotechnical
     instability: practical considerations based on case study insights'
@@ -77,7 +93,7 @@
   - Scott McDougall
   - Negar Ghahramani
   - Andy Take
-  type: Journal articles
+  type: Journal papers
   month: May
   year: '2024'
   journal: Bulletin of Engineering Geology and the Environment
@@ -94,7 +110,7 @@
   - Scott McDougall
   - Stephen Evans
   - Andy Take
-  type: Journal articles
+  type: Journal papers
   month: April
   year: '2024'
   journal: Coastal Engineering
@@ -112,7 +128,7 @@
   - Scott McDougall
   - Stephen Evans
   - Andy Take
-  type: Journal articles
+  type: Journal papers
   month: March
   year: '2024'
   journal: Mine Water and the Environment
@@ -131,7 +147,7 @@
   - Scott McDougall
   - Stephen Evans
   - Andy Take
-  type: Journal articles
+  type: Journal papers
   year: '2023'
   month: December
   volume: 42
@@ -151,7 +167,7 @@
   - Scott McDougall
   - Stephen Evans
   - Andy Take
-  type: Journal articles
+  type: Journal papers
   year: '2022'
   journal: Science of the Total Environment
   volume: '827'
@@ -169,7 +185,7 @@
   - Stephen Evans
   - Andy Take
   - Nadja Kunz
-  type: Journal articles
+  type: Journal papers
   year: '2022'
   journal: Resources
   volume: '11'
@@ -188,7 +204,7 @@
   - Nigel Skermer
   - Scott McDougall
   - Andy Take
-  type: Journal articles
+  type: Journal papers
   month: September
   year: '2022'
   journal: Earth-Science Reviews
@@ -203,7 +219,7 @@
   - Scott McDougall
   - Stephen Evans
   - Andy Take
-  type: Journal articles
+  type: Journal papers
   month: December
   year: '2021'
   journal: Water Resources Research
@@ -220,7 +236,7 @@
   - Scott McDougall
   - Andy Small
   - Andy Take
-  type: Journal articles
+  type: Journal papers
   month: October
   year: '2021'
   journal: Engineering Geology
@@ -237,7 +253,7 @@
   - Scott McDougall
   - Stephen Evans
   - Andy Take
-  type: Journal articles
+  type: Journal papers
   month: December
   year: '2020'
   journal: Natural Hazards and Earth System Sciences
@@ -305,7 +321,25 @@
   doi: https://doi.org/10.5683/SP2/HLJQVB
 
 
-# Conference papers
+# Conference proceedings
+
+- title: 'Improvements in the understanding and analysis of tailings dam breach and runout processes: key outcomes of the CanBreach project (2019-2023)'
+  authors:
+  - Scott McDougall
+  - Nahyan Rana
+  - Negar Ghahramani
+  - Daniel Adria
+  - Andrea Walsh
+  - Kayleigh Barlow
+  - Megan McKellar
+  - Stephen Evans
+  - Andy Take
+  type: Conference proceedings
+  conference: American Geophysical Union Annual Meeting
+  event-place: San Francisco
+  month: December
+  year: '2023'
+  doi: https://ui.adsabs.harvard.edu/abs/2023AGUFM.H23C..07M/abstract
 
 - title: Improvements in case history knowledge for dam failures by statistical and
     remote sensing methods (CanBreach project)
@@ -316,7 +350,7 @@
   - Scott McDougall
   - Andy Take
   - Stephen Evans
-  type: Conference papers
+  type: Conference proceedings
   conference: International Conference on Tailings and Mine Waste
   number: 27
   event-place: Vancouver
@@ -336,7 +370,7 @@
   - Stephen Evans
   - Andy Take
   - Scott McDougall
-  type: Conference papers
+  type: Conference proceedings
   conference: International Conference on Tailings and Mine Waste
   number: 27
   event-place: Vancouver
@@ -354,7 +388,7 @@
   - Scott McDougall
   - Stephen Evans
   - Andy Take
-  type: Conference papers
+  type: Conference proceedings
   conference: International Conference on Tailings and Mine Waste
   number: 27
   event-place: Vancouver
@@ -370,7 +404,7 @@
   - Negar Ghahramani
   - Scott McDougall
   - Andy Take
-  type: Conference papers
+  type: Conference proceedings
   conference: International Conference on Tailings and Mine Waste
   number: 25
   event-place: Banff
@@ -387,7 +421,7 @@
   - Nahyan Rana
   - Stephen Evans
   - Andy Take
-  type: Conference papers
+  type: Conference proceedings
   conference: International Conference on Tailings and Mine Waste
   number: 25
   event-place: Banff
@@ -402,7 +436,7 @@
   - Scott McDougall
   - Stephen Evans
   - Andy Take
-  type: Conference papers
+  type: Conference proceedings
   conference: Mine Waste and Tailings Conference
   number: 3
   event-place: Brisbane
@@ -417,7 +451,7 @@
   - Stephen Evans
   - Scott McDougall
   - Andy Take
-  type: Conference papers
+  type: Conference proceedings
   conference: Mine Waste and Tailings Conference
   number: 3
   event-place: Brisbane
@@ -435,7 +469,7 @@
   - Scott McDougall
   - Stephen Evans
   - Andy Take
-  type: Conference papers
+  type: Conference proceedings
   conference: Mine Waste and Tailings Conference
   number: 3
   event-place: Brisbane
@@ -452,7 +486,7 @@
   - Stephen Evans
   - Andy Take
   - Nadja Kunz
-  type: Conference papers
+  type: Conference proceedings
   conference: International Conference on Tailings and Mine Waste
   number: 24
   month: November
@@ -467,7 +501,7 @@
   - Stephen Evans
   - Andy Take
   - Vanessa Cuervo
-  type: Conference papers
+  type: Conference proceedings
   conference: International Conference on Tailings and Mine Waste
   number: 23
   event-place: Vancouver
@@ -481,7 +515,7 @@
   - Andy Take
   - Scott McDougall
   - Stephen Evans
-  type: Conference papers
+  type: Conference proceedings
   conference: International Conference on Tailings and Mine Waste
   number: 23
   event-place: Vancouver
@@ -512,7 +546,7 @@
   - Daniel Adria
   - Nahyan Rana
   type: Talks
-  occasion: Recent advances in tailings dam breach analysis
+  occasion: Recent advances in tailings dam breach analysis workshop
   conference: Annual Conference & Trade Show of the Canadian Dam Association 
   number: 35
   event-place: Niagara Falls
@@ -523,7 +557,7 @@
   authors: 
   - Negar Ghahramani
   type: Talks
-  occasion: Recent advances in tailings dam breach analysis
+  occasion: Recent advances in tailings dam breach analysis workshop
   conference: Annual Conference & Trade Show of the Canadian Dam Association 
   number: 35
   event-place: Niagara Falls
@@ -534,12 +568,30 @@
   authors: 
   - Andy Take
   type: Talks
-  occasion: Recent advances in tailings dam breach analysis
+  occasion: Recent advances in tailings dam breach analysis workshop
   conference: Canadian Dam Association Annual Conference & Trade Show
   number: 35
   event-place: Niagara Falls
   year: '2024'
   month: October
+
+- title: 'Tailings dam breach analysis: new data and insights from the CanBreach project'
+  authors:
+  - Scott McDougall
+  type: Talks
+  occasion: Towards safer tailings dams workshop
+  conference: Norwegian Geotechnical Institute
+  event-place: Oslo
+  year: '2023'
+  month: September
+
+- title: 'The CanBreach research project'
+  authors:
+  - Scott McDougall
+  type: Talks
+  conference: Canadiam Dam Association Mining Dams Committee
+  year: '2023'
+  month: January
 
 - title: An overview of the CanBreach project
   authors: 

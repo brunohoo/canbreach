@@ -1,5 +1,5 @@
 ---
-title: Research team
+title: Team
 date: 2024-10-19 13:21:18
 menu_item: false
 menu_order: 4

@@ -1,11 +1,11 @@
 ---
-title: CanBreach homepage
+title: Home
 date: 2024-10-19 12:38:06
 menu_item: true
 menu_order: 1
 
 first_generation: |
-  ### Three universities
+  ### Research by graduate students at three universities
   
   <div class="partner-grid">
   <a href="https://ubc.ca/" target="_blank" class="partner-logo">
@@ -19,7 +19,7 @@ first_generation: |
   </a>
   </div>
   
-  ### Seven industrial partners
+  ### Funding and guidance from seven industry partners
   
   <div class="partner-grid">
   <a href="https://www.bgcengineering.ca/" target="_blank" class="partner-logo">
@@ -45,7 +45,7 @@ first_generation: |
   </a>
   </div>
   
-  ### Funded by
+  ### Matching funding from the Natural Sciences and Engineering Research Council of Canada
   
   <div class="partner-grid">
   <a href="https://www.nserc-crsng.gc.ca/Index_eng.asp" target="_blank" class="partner-logo">
@@ -57,6 +57,6 @@ second_generation: |
   .
 ---
 
-## CanBreach research team
+## CanBreach
 
-CanBreach is a NSERC-funded university-industry research team whose purpose is to equip engineers with better tools, including computer simulations, to help manage the risks associated with tailings storage facilities. Using an integrated approach to research, the team will work to develop a better understanding of the mobility of tailings flow, breach mechanisms of tailings dams, and the downstream behaviour of long runout tailings flows.
+CanBreach is a university-industry partnership focused on improving our understanding of tailings dam breach processes and the methods that practitioners use to analyse them.

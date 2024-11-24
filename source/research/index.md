@@ -1,7 +1,7 @@
 ---
-title: Research directions
+title: Research
 date: 2024-10-19 12:38:06
-menu_item: true
+menu_item: false
 menu_order: 2
 
 first_generation: |
