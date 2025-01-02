@@ -75,11 +75,11 @@
   - Stephen Evans
   - Andy Take
   type: Journal papers
-  month: November #atualizar depois
-  year: '2024' #atualizar depois tb e colocar volume e issue
+  month: January
+  year: '2025'
   journal: Engineering Geology
-  doi: https://www.sciencedirect.com/science/article/pii/S0013795224004058
-  # doi: https://doi.org/10.1016/j.enggeo.2024.107805
+  volume: '344'
+  doi: https://doi.org/10.1016/j.enggeo.2024.107805
 
 - title: 'Application of Sentinel-1 InSAR to monitor tailings dams and predict geotechnical
     instability: practical considerations based on case study insights'
