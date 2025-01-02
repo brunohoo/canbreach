@@ -280,6 +280,14 @@ SOFTWARE.
 - ✅ The original copyright/license notice must be included
 - ❌ No liability or warranty from the authors
 
+
+### About the Favicon
+
+Inspired on these icons:
+* <a href="https://www.flaticon.com/free-icons/canada" title="canada icons">Canada icons created by Freepik - Flaticon</a>
+* <a href="https://www.flaticon.com/free-icons/data-mining" title="data-mining icons">Data-mining icons created by Becris - Flaticon</a>
+
+
 ### Using this project
 
 1. When using this project, maintain the copyright notice in all copies
