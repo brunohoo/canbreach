@@ -39,7 +39,9 @@
     <nav>
       <ul>
         <% get_menu_items().forEach(function(item) { %>
-          <li><a href="<%= item.url %>"><%= item.title %></a></li>
+          <li><a href="<%= item.url %>" class="<%= url_for(page.path) === item.url ? 'active' : '' %>">
+            <%= item.title %>
+          </a></li>
         <% }); %>
       </ul>
       <div class="search-container">
