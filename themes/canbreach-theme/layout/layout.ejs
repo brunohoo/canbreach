@@ -3,12 +3,30 @@
 
 <head>
   <meta charset="utf-8">
-  <title><%= page.title ? `${page.title} | ${config.title}` : config.title %></title> <!--Consistent page titles in browser tabs-->
-  <!-- <title><%= config.title %></title> -->
-  <!-- meta tags for Netlify secutiry purposes -->
+  <title><%= page.title ? `${page.title} | ${config.title}` : config.title %></title>
+  
+  <!-- Security meta tags - keep these! -->
   <meta http-equiv="X-Frame-Options" content="DENY">
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
   <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+  
+  <!-- SEO and social sharing meta tags -->
+  <meta name="description" content="<%= page.description || config.description %>">
+  <meta name="keywords" content="<%= page.keywords || config.keywords %>">
+  <meta property="og:type" content="<%= page.layout === 'post' ? 'article' : 'website' %>">
+  <meta property="og:title" content="<%= page.title ? `${page.title} | ${config.title}` : config.title %>">
+  <meta property="og:description" content="<%= page.description || config.description %>">
+  <meta property="og:url" content="<%= config.url + url_for(page.path) %>">
+  <meta property="og:site_name" content="<%= config.title %>">
+
+  <!-- Citation meta tags for research content -->
+  <% if (page.path === 'publications/') { %>
+    <meta name="citation_title" content="CanBreach Research Publications">
+    <meta name="citation_author" content="CanBreach research team">
+    <meta name="citation_publication_date" content="<%= date(page.date, 'YYYY-MM-DD') %>">
+  <% } %>
+  
+  <!-- Styles -->
   <link rel="stylesheet" href="<%- url_for('css/style.css') %>">
   <style>
     .tab-content { display: none; }

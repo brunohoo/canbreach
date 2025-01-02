@@ -4,17 +4,17 @@
 
 # Site
 title: CanBreach
-subtitle: ''
-description: ''
-keywords:
+subtitle: 'CanBreach research team'
+description: 'CanBreach is a university-industry partnership focused on improving our understanding of tailings dam breach processes'
+keywords: tailings dam breach analysis, mining geohazards, engineering research, university-industry partnership
 author: CanBreach research team
 language: en
-timezone: ''
+timezone: 'America/Vancouver'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://canbreach.netlify.app
-permalink: :year/:month/:day/:title/
+url: https://canbreach.ca/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
@@ -29,6 +29,10 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - robots.txt
+  - '*.txt'  # This ensures all txt files are copied without processing
+  - sitemap.xml  # Add this line
+
 
 # Writing
 new_post_name: :title.md # File name of new posts

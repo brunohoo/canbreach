@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /search/  # This prevents search results pages from being indexed
+Sitemap: https://canbreach.ca/sitemap.xml
+
+# Rate limiting for crawlers to prevent overloading your server
+Crawl-delay: 10

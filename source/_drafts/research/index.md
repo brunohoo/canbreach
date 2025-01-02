@@ -2,7 +2,7 @@
 title: Research
 date: 2024-10-19 12:38:06
 menu_item: false
-menu_order: 2
+# menu_order: 2
 
 first_generation: |
   Mining produces massive volumes of waste, called tailings, which are stored in perpetuity behind large dams. As exemplified by the recent high profile tailings dam failures in Canada at the Mount Polley mine near Williams Lake, British Columbia, tailings can flow over long distances, and result in major safety, environmental and economic consequences. Despite this, the analytical methods currently available to carry out tailings dam failure studies are limited, as little is understood about the behaviour of flowing tailings, breaching mechanism, outburst processes and the downstream behaviour of long runout tailings flows. This research project aims to fill this knowledge gap and equip engineers with better tools, including computer simulations, to help manage these important mining risks. The project team includes researchers from three Canadian universities, two large mining companies, and three industry-leading consulting companies. The diversity of the research team allows an integrated approach to research to position Canadian companies at the forefront of tailings dam engineering and, ultimately, improve the safety and sustainability of mining operations in Canada and around the world.
