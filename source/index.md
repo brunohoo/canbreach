@@ -25,9 +25,6 @@ first_generation: |
   <a href="https://www.bgcengineering.ca/" target="_blank" class="partner-logo">
       <img src="https://www.bgcengineering.ca/wp-content/uploads/2022/08/BGC-Colour-Logo_White-Box.png" alt="BGC Engineering">
   </a>
-  <a href="https://www.golder.com/" target="_blank" class="partner-logo">
-      <img src="https://yt3.googleusercontent.com/fZculccEzxyvGA8NwwLVMwvS3NzCQi3HlPwEIJspMq3QN7I616mIKPlUejQGiAjKr-skcony12Q=s900-c-k-c0x00ffffff-no-rj" alt="Golder/WSP">
-  </a>
   <a href="https://www.klohn.com/" target="_blank" class="partner-logo">
       <img src="https://klohn.com/wp-content/uploads/2020/07/KCB-logo-horizontal.png" alt="Klohn Crippen Berger">
   </a>
@@ -42,6 +39,9 @@ first_generation: |
   </a>
   <a href="https://www.suncor.com/" target="_blank" class="partner-logo">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRadqPd8n2lpTtli2gLkPg2uz79Gp_gUUXmEQ&s" alt="Suncor Energy">
+  </a>
+  <a href="https://www.wsp.com/en-ca" target="_blank" class="partner-logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/WSP_logo.svg/1200px-WSP_logo.svg.png" alt="WSP">
   </a>
   </div>
   
