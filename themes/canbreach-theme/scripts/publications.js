@@ -92,6 +92,12 @@ hexo.extend.helper.register('renderPublication', function(pub) {
     if (pub.institution) infoArray.push(pub.institution);
   } 
   
+  else if (pub.type === 'Magazine articles') {
+    if (pub.publication) infoArray.push(pub.publication);
+    if (pub.volume) infoArray.push(`volume ${pub.volume}`);
+    if (pub.issue) infoArray.push(`issue ${pub.issue}`);
+  } 
+  
   else if (pub.type === 'Talks') {
     if (pub.occasion) infoArray.push(pub.occasion);
     let conferenceInfo = '';
