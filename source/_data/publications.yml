@@ -323,6 +323,20 @@
 
 # Conference proceedings
 
+- title: 'Advancing tailings dam breach analyses: understanding gaps in material properties and model results'
+  authors:
+  - Bruno Rodrigues
+  - Scott McDougall
+  - Andy Take
+  type: Conference proceedings
+  conference: International Conference on Tailings and Mine Waste
+  number: 29
+  event-place: Banff
+  month: November
+  year: '2025'
+  pages: 795-804
+
+
 - title: 'Improvements in the understanding and analysis of tailings dam breach and runout processes: key outcomes of the CanBreach project (2019-2023)'
   authors:
   - Scott McDougall
