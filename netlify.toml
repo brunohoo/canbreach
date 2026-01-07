@@ -17,4 +17,4 @@
   headers = {WWW-Authenticate = "Basic realm=\"Restricted Access\""}
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "22"
