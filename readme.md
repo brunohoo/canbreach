@@ -249,7 +249,7 @@ This project is licensed under the MIT License:
 ```
 MIT License
 
-Copyright (c) 2025 CanBreach research team
+Copyright (c) 2025-2026 CanBreach research team
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -298,7 +298,7 @@ Inspired on these icons:
 To properly credit this project in your own work, include:
 ```
 Based on CanBreach website (https://github.com/brunohoo/canbreach)
-Copyright (c) 2025 CanBreach research team
+Copyright (c) 2025-2026 CanBreach research team
 Licensed under the MIT License
 ```
 

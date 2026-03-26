@@ -35,7 +35,7 @@ first_generation: |
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_t2ohEj5yzt8WObgRZ5tiVgE27c93omoErg&s" alt="Imperial Oil">
   </a>
   <a href="https://www.riotinto.com/" target="_blank" class="partner-logo">
-      <img src="images/riotintologo1.svg" alt="Rio Tinto">
+      <img src="/images/riotintologo1.svg" alt="Rio Tinto">
   </a>
   <a href="https://www.suncor.com/" target="_blank" class="partner-logo">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRadqPd8n2lpTtli2gLkPg2uz79Gp_gUUXmEQ&s" alt="Suncor Energy">
