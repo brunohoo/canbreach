@@ -32,16 +32,16 @@ first_generation: |
       <img src="/images/knightpiesoldlogo.png" alt="Knight Piésold">
   </a>
   <a href="https://www.imperial.ca/" target="_blank" class="partner-logo">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_t2ohEj5yzt8WObgRZ5tiVgE27c93omoErg&s" alt="Imperial Oil">
+      <img src="/images/imperiallogo1brandfetch.svg" alt="Imperial Oil">
   </a>
   <a href="https://www.riotinto.com/" target="_blank" class="partner-logo">
       <img src="/images/riotintologo1.svg" alt="Rio Tinto">
   </a>
   <a href="https://www.suncor.com/" target="_blank" class="partner-logo">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRadqPd8n2lpTtli2gLkPg2uz79Gp_gUUXmEQ&s" alt="Suncor Energy">
+      <img src="/images/suncorlogo1wiki.svg" alt="Suncor Energy">
   </a>
   <a href="https://www.wsp.com/en-ca" target="_blank" class="partner-logo">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/WSP_logo.svg/1200px-WSP_logo.svg.png" alt="WSP">
+      <img src="/images/wsplogo2wiki.svg" alt="WSP">
   </a>
   </div>
   
@@ -49,7 +49,7 @@ first_generation: |
   
   <div class="partner-grid">
   <a href="https://www.nserc-crsng.gc.ca/Index_eng.asp" target="_blank" class="partner-logo">
-      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Natural_Sciences_and_Engineering_Research_Council_Logo.svg/1200px-Natural_Sciences_and_Engineering_Research_Council_Logo.svg.png" alt="Natural Sciences and Engineering Research Council of Canada">
+      <img src="/images/nserclogo1wiki.svg" alt="Natural Sciences and Engineering Research Council of Canada">
   </a>
   </div>
 
